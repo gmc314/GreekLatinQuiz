@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: wheat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+#text-container {
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    white-space: nowrap;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: text;
+}
+
+#timer {
+    margin: 10px;
+
+}
